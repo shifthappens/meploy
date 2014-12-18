@@ -1,0 +1,38 @@
+{
+  "name": "meploy",
+  "description": "meteor deployments to non-default targets made easy",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shifthappens/meploy",
+  "author": {
+    "name": "Coen de Jong",
+    "email": "<co.dejong@gmail.com",
+    "url": "http://shifthappens.nl/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shifthappens/meploy"
+  },
+  "bugs": {
+    "url": "https://github.com/shifthappens/meploy/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shifthappens/meploy/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/meploy",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
